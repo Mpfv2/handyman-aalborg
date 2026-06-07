@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Handyman Aalborg — Tømrer, snedker & VVS | Ring 28 55 88 55</title>
+  <meta name="description" content="Din lokale handyman i Aalborg. Tømrer- og snedkerarbejde, mindre VVS, montering og reparation. Fast timepris 450 kr + moms. Ring 28 55 88 55." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Top bar (sticky) ===== -->
+  <header class="topbar" id="top">
+    <a href="#top" class="brand" aria-label="Handyman Aalborg — til toppen">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2-.5-.5-2 2.5-2.5z"/>
+        </svg>
+      </span>
+      <span class="brand__text">Handyman<span>Aalborg</span></span>
+    </a>
+
+    <nav class="topnav" aria-label="Primær">
+      <a href="#ydelser">Ydelser</a>
+      <a href="#om">Om mig</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <a href="tel:+4528558855" class="btn btn--call topbar__call">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>28 55 88 55</span>
+    </a>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="tape tape--top" aria-hidden="true"></div>
+
+      <div class="hero__inner">
+        <p class="hero__kicker reveal">Lokal håndværker · Aalborg &amp; omegn</p>
+        <h1 class="hero__title">
+          <span class="reveal" style="--d:.05s">Din lokale</span>
+          <span class="reveal hero__title--accent" style="--d:.15s">handyman</span>
+          <span class="reveal" style="--d:.25s">i Aalborg</span>
+        </h1>
+        <p class="hero__lead reveal" style="--d:.35s">
+          Tømrer- og snedkerarbejde, mindre VVS, montering og de skæve opgaver,
+          andre ikke gider. Uddannet håndværker — fast timepris, intet fis.
+        </p>
+
+        <div class="hero__cta reveal" style="--d:.45s">
+          <a href="tel:+4528558855" class="btn btn--call btn--lg">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Ring op — 28 55 88 55
+          </a>
+          <a href="#kontakt" class="btn btn--ghost btn--lg">Få et tilbud</a>
+        </div>
+
+        <ul class="hero__trust reveal" style="--d:.55s">
+          <li>Tømrer</li>
+          <li>Snedker</li>
+          <li>VVS</li>
+          <li><strong>450 kr/t</strong> + moms</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Feature strip ===== -->
+    <section class="strip" aria-label="Derfor mig">
+      <div class="strip__inner">
+        <div class="strip__item"><span>✓</span> Uddannet håndværker &amp; tekniker</div>
+        <div class="strip__item"><span>✓</span> Lokal i Aalborg — kort vej ud</div>
+        <div class="strip__item"><span>✓</span> Fast timepris, ingen skjulte gebyrer</div>
+        <div class="strip__item"><span>✓</span> Ingen opgave er for lille</div>
+      </div>
+    </section>
+
+    <!-- ===== Services ===== -->
+    <section class="services" id="ydelser">
+      <header class="section-head">
+        <p class="section-head__kicker"><span>01</span> Ydelser</p>
+        <h2 class="section-head__title">Det jeg laver</h2>
+        <p class="section-head__sub">Én håndværker til mange opgaver — så du slipper for at ringe rundt.</p>
+      </header>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 22l4-4"/><path d="M16 8l-1.5-1.5a2.12 2.12 0 0 0-3 0L4 14l3 3 6.5-7.5a2.12 2.12 0 0 0 0-3z" transform="rotate(0)"/><path d="M14 6l4-4 4 4-4 4"/><path d="M18 2l4 4"/></svg>
+          </div>
+          <h3>Tømrer &amp; snedker</h3>
+          <p>Renovering, terrasser, døre, vinduer, gulve, lister og alt i træ — udført ordentligt.</p>
+        </article>
+
+        <article class="card reveal" style="--d:.1s">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h6V5a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v3"/><path d="M9 8v10a3 3 0 0 0 3 3h0a3 3 0 0 0 3-3v-6h4"/><circle cx="19" cy="10" r="2"/></svg>
+          </div>
+          <h3>Mindre VVS</h3>
+          <p>Vandhaner, afløb, toiletter og småreparationer i køkken og bad — hurtigt fikset.</p>
+        </article>
+
+        <article class="card reveal" style="--d:.2s">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2-.5-.5-2 2.5-2.5z"/></svg>
+          </div>
+          <h3>Montering &amp; reparation</h3>
+          <p>Køkken, hylder, lamper, fladskærme og fladpakke-møbler — samlet og hængt rigtigt op.</p>
+        </article>
+
+        <article class="card reveal" style="--d:.3s">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          </div>
+          <h3>Diverse handyman</h3>
+          <p>De skæve, blandede og komplekse opgaver — er du i tvivl, så ring og spørg.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="about" id="om">
+      <div class="tape tape--thin" aria-hidden="true"></div>
+      <div class="about__inner">
+        <div class="about__media" aria-hidden="true">
+          <div class="about__badge">
+            <span class="about__badge-num">450</span>
+            <span class="about__badge-label">kr/t + moms</span>
+          </div>
+          <svg class="about__tool" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2-.5-.5-2 2.5-2.5z"/></svg>
+        </div>
+        <div class="about__text">
+          <p class="section-head__kicker"><span>02</span> Om mig</p>
+          <h2 class="section-head__title">Én du kan regne med</h2>
+          <p>
+            Jeg er uddannet håndværker og tekniker med bred erfaring. Jeg er god til at
+            finde løsninger — også på de skæve eller komplekse opgaver — og jeg gør
+            arbejdet ordentligt færdigt inden for rimelig tid.
+          </p>
+          <p>
+            Jeg bor og arbejder i Aalborg, så der er kort vej ud til dig. Du får en fast
+            timepris på <strong>450 kr + moms</strong> og en ærlig snak om opgaven, før vi går i gang.
+          </p>
+          <a href="#kontakt" class="btn btn--call">Skriv til mig</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="contact" id="kontakt">
+      <div class="contact__inner">
+        <div class="contact__intro">
+          <p class="section-head__kicker"><span>03</span> Kontakt</p>
+          <h2 class="section-head__title">Få et uforpligtende tilbud</h2>
+          <p>Beskriv kort din opgave, så vender jeg tilbage. Skal det gå stærkt, så ring bare.</p>
+
+          <ul class="contact__list">
+            <li>
+              <span class="contact__ico" aria-hidden="true">📞</span>
+              <a href="tel:+4528558855">28 55 88 55</a>
+            </li>
+            <li>
+              <span class="contact__ico" aria-hidden="true">✉️</span>
+              <a href="mailto:handymanaalborg9000@gmail.com">handymanaalborg9000@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact__ico" aria-hidden="true">📍</span>
+              <span>Aalborg &amp; omegn</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="navn">Navn</label>
+            <input type="text" id="navn" name="navn" autocomplete="name" placeholder="Dit navn" required />
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="telefon">Telefon</label>
+              <input type="tel" id="telefon" name="telefon" autocomplete="tel" placeholder="12 34 56 78" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" placeholder="dig@email.dk" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="besked">Opgaven</label>
+            <textarea id="besked" name="besked" rows="4" placeholder="Hvad skal der laves? Gerne adresse og tidsramme." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--call btn--lg btn--block">Send forespørgsel</button>
+          <p class="form__note">Knappen åbner din mailprogram med beskeden klar. Foretrækker du at ringe? <a href="tel:+4528558855">28 55 88 55</a></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <span class="brand__text">Handyman<span>Aalborg</span></span>
+        <p>Din lokale håndværker i Aalborg — tømrer, snedker og mindre VVS.</p>
+      </div>
+      <div class="footer__cols">
+        <div>
+          <h4>Kontakt</h4>
+          <a href="tel:+4528558855">28 55 88 55</a>
+          <a href="mailto:handymanaalborg9000@gmail.com">handymanaalborg9000@gmail.com</a>
+        </div>
+        <div>
+          <h4>Virksomhed</h4>
+          <span>CVR 2679 4919</span>
+          <span>Aalborg &amp; omegn</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <span>© <span id="year"></span> Handyman Aalborg</span>
+      <a href="#top">Til toppen ↑</a>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile call button -->
+  <a href="tel:+4528558855" class="fab" aria-label="Ring til Handyman Aalborg">
+    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  </a>
+
+  <script>
+    // Current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Contact form -> mailto (works without a backend)
+    var form = document.getElementById('contactForm');
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      var navn = encodeURIComponent(form.navn.value.trim());
+      var tlf = encodeURIComponent(form.telefon.value.trim());
+      var mail = encodeURIComponent(form.email.value.trim());
+      var besked = form.besked.value.trim();
+      var body = besked + '\n\n— ' + decodeURIComponent(navn)
+        + (tlf ? '\nTlf: ' + decodeURIComponent(tlf) : '')
+        + (mail ? '\nEmail: ' + decodeURIComponent(mail) : '');
+      var subject = encodeURIComponent('Forespørgsel fra ' + decodeURIComponent(navn));
+      window.location.href = 'mailto:handymanaalborg9000@gmail.com?subject='
+        + subject + '&body=' + encodeURIComponent(body);
+    });
+
+    // Scroll reveal
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); }
+      });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+
+    // Hero reveals fire on load
+    window.addEventListener('load', function () {
+      document.querySelectorAll('.hero .reveal').forEach(function (el) { el.classList.add('is-in'); });
+    });
+  </script>
+</body>
+</html>
